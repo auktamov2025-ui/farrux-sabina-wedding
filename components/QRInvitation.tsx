@@ -4,7 +4,7 @@ import { motion, useReducedMotion } from 'framer-motion';
 import Image from 'next/image';
 import { useState } from 'react';
 
-const invitationUrl = 'https://example.com';
+const invitationUrl = 'https://farrux-sabina-wedding.vercel.app';
 const qrCodeUrl = `https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=${encodeURIComponent(invitationUrl)}`;
 
 export default function QRInvitation() {
